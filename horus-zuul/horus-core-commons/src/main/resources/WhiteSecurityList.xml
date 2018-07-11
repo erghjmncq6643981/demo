@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rootConfig> 
+  <security name="白名单信息"> 
+    <host id="1"> 
+      <whiteHost>10.166.4.174</whiteHost>  
+      <serviceId>chaos-service-provider</serviceId> 
+    </host>  
+    <host id="2"> 
+      <whiteHost>10.166.37.139</whiteHost>  
+      <serviceId>chaos-service-provider</serviceId> 
+    </host>  
+    <host id="3"> 
+      <whiteHost>10.166.19.12</whiteHost>  
+      <serviceId>chaos-service-provider</serviceId> 
+    </host>  
+    <host id="4"> 
+      <whiteHost>10.166.2.34</whiteHost>  
+      <serviceId>chaos-service-provider</serviceId> 
+    </host>  
+    <host id="5"> 
+      <whiteHost>10.166.15.31</whiteHost>  
+      <serviceId>chaos-service-provider</serviceId> 
+    </host>  
+    <host id="6"> 
+      <whiteHost>10.166.37.29</whiteHost>  
+      <serviceId>chaos-service-provider</serviceId> 
+    </host>  
+    <host id="7"> 
+      <whiteHost>10.166.37.142</whiteHost>  
+      <serviceId>chaosfomoney-service-provider</serviceId> 
+    </host>  
+    <host id="8"> 
+      <whiteHost>414141</whiteHost>  
+      <serviceId>5555</serviceId> 
+    </host>  
+    <hosts>
+      <host id="1">
+        <whiteHost>10.166.4.174</whiteHost>
+        <serviceId>chaos-service-provider</serviceId>
+      </host>
+      <host id="2">
+        <whiteHost>10.166.37.139</whiteHost>
+        <serviceId>chaos-service-provider</serviceId>
+      </host>
+      <host id="3">
+        <whiteHost>10.166.19.12</whiteHost>
+        <serviceId>chaos-service-provider</serviceId>
+      </host>
+      <host id="4">
+        <whiteHost>10.166.2.34</whiteHost>
+        <serviceId>chaos-service-provider</serviceId>
+      </host>
+      <host id="5">
+        <whiteHost>10.166.15.31</whiteHost>
+        <serviceId>chaos-service-provider</serviceId>
+      </host>
+      <host id="6">
+        <whiteHost>10.166.37.29</whiteHost>
+        <serviceId>chaos-service-provider</serviceId>
+      </host>
+      <host id="7">
+        <whiteHost>10.166.37.142</whiteHost>
+        <serviceId>chaosfomoney-service-provider</serviceId>
+      </host>
+    </hosts>
+  </security> 
+</rootConfig>

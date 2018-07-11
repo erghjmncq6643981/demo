@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.fomoney.horus.core.commons.mapper.ISensitiveHeadersInfoMapper">
+    <select id="getSensitiveInfoList" resultType="String">
+    	select head_name
+    	from custom_sensitive_headers_info
+    	where key_only=#{key}
+    	and valid_status=true
+    </select>
+</mapper>
