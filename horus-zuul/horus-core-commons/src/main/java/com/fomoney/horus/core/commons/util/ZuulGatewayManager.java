@@ -177,11 +177,11 @@ public class ZuulGatewayManager {
 			gatewayElement.addAttribute("keyOnly", gateway.getKeyOnly() + "");
 			xmlUtil.addsubElement(gatewayElement, "id", gateway.getId());
 			xmlUtil.addsubElement(gatewayElement, "path", gateway.getPath());
-			String url = gateway.getUrl();
-			if (null == url || "".equals(url)) {
-				xmlUtil.addsubElement(gatewayElement, "serviceId", gateway.getServiceId());
+			String serviceId = gateway.getServiceId();
+			if (null == serviceId || "".equals(serviceId)) {
+				xmlUtil.addsubElement(gatewayElement, "url", gateway.getUrl());
 			} else {
-				xmlUtil.addsubElement(gatewayElement, "url", url);
+				xmlUtil.addsubElement(gatewayElement, "serviceId", gateway.getServiceId());
 			}
 			xmlUtil.addsubElement(gatewayElement, "retryable", gateway.getRetryable() + "");
 			xmlUtil.addsubElement(gatewayElement, "stripPrefix", gateway.isStripPrefix() + "");
@@ -217,7 +217,6 @@ public class ZuulGatewayManager {
 			try {
 				geteway.setServiceId(element.element("serviceId").getText());
 			} catch (Exception e) {
-				geteway.setServiceId(geteway.getId());
 				geteway.setUrl(element.element("url").getText());
 			}
 			if ("true".equals(element.element("stripPrefix").getText())) {

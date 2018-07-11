@@ -2288,7 +2288,7 @@
                 <artifactId>springfox-swagger2</artifactId>
                 <version>${springfox-swagger.version}</version>
             </dependency> -->
-			<!-- <dependency>
+			<dependency>
 			    <groupId>ch.qos.logback</groupId>
 			    <artifactId>logback-classic</artifactId>
 			    <version>${logback-core.version}</version>
@@ -2297,7 +2297,7 @@
 			    <groupId>ch.qos.logback</groupId>
 			    <artifactId>logback-core</artifactId>
 			    <version>${logback-core.version}</version>
-			</dependency> -->
+			</dependency>
 			<dependency>
 			    <groupId>io.jsonwebtoken</groupId>
 			    <artifactId>jjwt</artifactId>
@@ -2441,7 +2441,7 @@
         <junit.version>4.12</junit.version>
         <liquibase.version>3.5.3</liquibase.version>
         <log4j2.version>2.7</log4j2.version>
-        <logback.version>1.1.11</logback.version>
+        <logback-core.version>1.1.11</logback-core.version>
         <lombok.version>1.16.16</lombok.version>
         <mariadb.version>1.5.9</mariadb.version>
         <mssql-jdbc.version>6.1.0.jre7</mssql-jdbc.version>
