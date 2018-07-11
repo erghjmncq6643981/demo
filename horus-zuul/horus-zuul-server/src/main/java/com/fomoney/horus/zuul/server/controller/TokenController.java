@@ -43,7 +43,7 @@ public class TokenController {
 	 */
 	@RequestMapping(value = "/getToken", method = RequestMethod.POST, produces = "application/json; charset=UTF-8")
 	public BaseResponse getToken(@RequestBody String appId) {
-		if("".equals(appId)){
+		if (appId.isEmpty()) {
 			return null;
 		}
 		appId = appId.trim();

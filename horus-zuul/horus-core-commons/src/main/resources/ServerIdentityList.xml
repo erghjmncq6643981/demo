@@ -4,137 +4,65 @@
   <server name="微服务身份信息"> 
     <identity>
       <microService id="1">
-        <projectName>chaos项目</projectName>
-        <serviceId>chaos-service-provider</serviceId>
-        <appId>43f402295aeb2fb6d5f036d354c0ea62</appId>
+        <projectName>invoice-core</projectName>
+        <serviceId>invoice-core-service-provider</serviceId>
+        <appId>APPID0001</appId>
         <judgeSecurity>false</judgeSecurity>
         <ipLabel>false</ipLabel>
         <tokenLabel>false</tokenLabel>
       </microService>
       <microService id="2">
-        <projectName>电子发票</projectName>
-        <serviceId>invoice-chaos-provider</serviceId>
-        <appId>01f74226c6f046c3880c539de3f06c74</appId>
+        <projectName>invoice-billingServices</projectName>
+        <serviceId>invoice-billingServices-service-provider</serviceId>
+        <appId>APPID0002</appId>
         <judgeSecurity>false</judgeSecurity>
         <ipLabel>false</ipLabel>
         <tokenLabel>false</tokenLabel>
       </microService>
       <microService id="3">
-        <projectName>统一账户</projectName>
-        <serviceId>uuam-service-provider</serviceId>
-        <appId>98696be2721c6cbf96666cc2005bcee7</appId>
+        <projectName>chaos项目</projectName>
+        <serviceId>chaos-service-provider</serviceId>
+        <appId>988db1003b39287e00eefc90030c357d</appId>
         <judgeSecurity>false</judgeSecurity>
         <ipLabel>false</ipLabel>
         <tokenLabel>false</tokenLabel>
       </microService>
       <microService id="4">
-        <projectName>xxx</projectName>
-        <serviceId>paperless-sign-service-provider</serviceId>
-        <appId>43f402295aeb2fb6d5f036d354c0ea77</appId>
+        <projectName>chaosfomoney项目</projectName>
+        <serviceId>chaosfomoney-service-provider</serviceId>
+        <appId>6a5421b2b715154612b0b77060aadf86</appId>
         <judgeSecurity>false</judgeSecurity>
         <ipLabel>false</ipLabel>
         <tokenLabel>false</tokenLabel>
       </microService>
       <microService id="5">
-        <projectName>test</projectName>
-        <serviceId>chaos-service-provider2</serviceId>
-        <appId>43f402295aeb2fb6d5f036d354c0eb77</appId>
+        <projectName>uuam-service-provider项目</projectName>
+        <serviceId>uuam-service-provider</serviceId>
+        <appId>db985dbdf67f98a3bd98acb2b1304bec</appId>
+        <judgeSecurity>false</judgeSecurity>
+        <ipLabel>false</ipLabel>
+        <tokenLabel>false</tokenLabel>
+      </microService>
+      <microService id="6">
+        <projectName>weixin-gzh-service-provider项目</projectName>
+        <serviceId>weixin-gzh-service-provider</serviceId>
+        <appId>94ba982d28a0afd2042884c7ff5aa602</appId>
         <judgeSecurity>false</judgeSecurity>
         <ipLabel>false</ipLabel>
         <tokenLabel>false</tokenLabel>
       </microService>
       <microService id="7">
-        <projectName>test2</projectName>
-        <serviceId>chaos-test</serviceId>
-        <appId>43f402295aeb2fb6d5f036d354c0eb72</appId>
+        <projectName>paperless-sign-service-provider项目</projectName>
+        <serviceId>paperless-sign-service-provider</serviceId>
+        <appId>fbdfb12a54f1fe40849e21a3d725bf50</appId>
         <judgeSecurity>false</judgeSecurity>
         <ipLabel>false</ipLabel>
         <tokenLabel>false</tokenLabel>
       </microService>
       <microService id="8">
-        <projectName>invoice-core</projectName>
-        <serviceId>invoice-core-service-provider</serviceId>
-        <appId>43f402295aeb2fb6d5f036d354c0ea68</appId>
-        <judgeSecurity>false</judgeSecurity>
-        <ipLabel>false</ipLabel>
-        <tokenLabel>false</tokenLabel>
-      </microService>
-      <microService id="9">
-        <projectName>invoice-billingServices</projectName>
-        <serviceId>invoice-billingServices-service-provider</serviceId>
-        <appId>43f402295aeb2fb6d5f036d354c0ea69</appId>
-        <judgeSecurity>true</judgeSecurity>
-        <ipLabel>true</ipLabel>
-        <tokenLabel>true</tokenLabel>
-      </microService>
-      <microService id="10">
-        <projectName>cup</projectName>
-        <serviceId>cup-service-provider</serviceId>
-        <appId>111111</appId>
-        <judgeSecurity>false</judgeSecurity>
-        <ipLabel>false</ipLabel>
-        <tokenLabel>false</tokenLabel>
-      </microService>
-      <microService id="11">
-        <projectName>chaosfomoney-service-provider</projectName>
-        <serviceId>chaosfomoney-service-provider</serviceId>
-        <appId>01f74226c6f046c3880c539de3f06378</appId>
-        <judgeSecurity>false</judgeSecurity>
-        <ipLabel>false</ipLabel>
-        <tokenLabel>false</tokenLabel>
-      </microService>
-      <microService id="12">
-        <projectName>人行征信报送</projectName>
-        <serviceId>surpt-rhzx-service-provider</serviceId>
-        <appId>01f74226c6f046c3880c539de3f06366</appId>
-        <judgeSecurity>false</judgeSecurity>
-        <ipLabel>false</ipLabel>
-        <tokenLabel>false</tokenLabel>
-      </microService>
-      <microService id="13">
-        <projectName>人行征信报送1</projectName>
-        <serviceId>surpt-rhzx-service-huang</serviceId>
-        <appId>01f74226c6f046c3880c539de3f06363</appId>
-        <judgeSecurity>false</judgeSecurity>
-        <ipLabel>false</ipLabel>
-        <tokenLabel>false</tokenLabel>
-      </microService>
-      <microService id="14">
-        <projectName>人行征信报送2</projectName>
-        <serviceId>surpt-rhzx-service-huang1</serviceId>
-        <appId>01f74226c6f046c3880c539de3f06365</appId>
-        <judgeSecurity>true</judgeSecurity>
-        <ipLabel>true</ipLabel>
-        <tokenLabel>true</tokenLabel>
-      </microService>
-      <microService id="39">
-        <projectName>skyes-invest</projectName>
-        <serviceId>skyes-invest-service-provider</serviceId>
-        <appId>111111222222</appId>
-        <judgeSecurity>false</judgeSecurity>
-        <ipLabel>false</ipLabel>
-        <tokenLabel>false</tokenLabel>
-      </microService>
-      <microService id="40">
-        <projectName>微信公众号</projectName>
-        <serviceId>weixin-gzh-service-provider</serviceId>
-        <appId>9d16260f647f65b3ebeb2abebb581078</appId>
-        <judgeSecurity>false</judgeSecurity>
-        <ipLabel>false</ipLabel>
-        <tokenLabel>false</tokenLabel>
-      </microService>
-      <microService id="44">
-        <projectName>skyes-user</projectName>
-        <serviceId>skyes-user-service-provider</serviceId>
-        <appId>1122</appId>
-        <judgeSecurity>false</judgeSecurity>
-        <ipLabel>false</ipLabel>
-        <tokenLabel>false</tokenLabel>
-      </microService>
-      <microService id="45">
-        <projectName>skyes-pay</projectName>
-        <serviceId>skyes-pay-service-provider</serviceId>
-        <appId>1133</appId>
+        <projectName>金管局数据报送</projectName>
+        <serviceId>component-dmz</serviceId>
+        <appId>3be57526612493562fa08466b36cda12</appId>
         <judgeSecurity>false</judgeSecurity>
         <ipLabel>false</ipLabel>
         <tokenLabel>false</tokenLabel>

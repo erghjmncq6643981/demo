@@ -22,8 +22,9 @@ import com.fomoney.horus.core.commons.dao.ServerIdenInfoDao;
 import com.fomoney.horus.core.commons.entity.ServerIdenInfo;
 
 /**
- * 类功能描述
- * @version   
+ * 微服务身份信息
+ * 
+ * @version
  * @author kyle 2017年12月28日下午5:00:16
  * @since 1.8
  */
@@ -31,14 +32,13 @@ import com.fomoney.horus.core.commons.entity.ServerIdenInfo;
 public class ServerIdenInfoService {
 	@Autowired
 	private ServerIdenInfoDao serverIdenInfoDao;
-	
+
 	/**
 	 * @return List<ServerIdenInfo>
-	 * @Description: 
+	 * @Description:
 	 * @create date 2017年12月28日下午5:00:59
 	 */
-	public List<ServerIdenInfo> getServerIdenInfoList(){
+	public List<ServerIdenInfo> getServerIdenInfoList() {
 		return serverIdenInfoDao.getServerIdenInfoList();
 	}
 }
-

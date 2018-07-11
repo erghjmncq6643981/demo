@@ -16,7 +16,7 @@
     	select key_only,id,path,iden.service_id service_id,url,retryable,strip_prefix,custom_sensitive_headers
     	from gateway_api_define gateway left join identify_info iden
     	on gateway.iden_id=iden.iden_id
-    	and enabled=true
+    	where enabled=1
     	order by key_only
     </select>
     

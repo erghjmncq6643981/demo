@@ -16,7 +16,7 @@
     		   iden.judge_security judge_security,sec.ip_label ip_label,sec.token_label token_label
     	from identify_info iden left join security_control_info sec
     	on iden.iden_id=sec.iden_id
-    	and iden.stat='1'
+    	where iden.stat='1'
     	and iden.del_flag='1'
     	order by iden_id
     </select>
